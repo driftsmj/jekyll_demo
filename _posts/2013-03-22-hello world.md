@@ -1,3 +1,9 @@
+---
+	layout: default
+	title: 你好，世界
+	---
+	<h2>{{ page.title }}</h2>
+	<p>
 MuMu's Blog
 =
 
@@ -13,5 +19,6 @@ MuMu's Blog
 >>*如果前生的五百次回眸，能换来今生与你的擦肩而过*
 >>>*那我宁愿我花费掉五百亿次回首，换来今生与你相守*
 
-##最新文章
-- [Hello,Welcome My little house.](http://driftsmj.github.com/2013/3/22/hello-world.md)
+
+	</p>
+	<p>{{ page.date | date_to_string }}</p>
